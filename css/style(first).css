@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*------------------------------------*\
+              #FIRST_MENU
+\*------------------------------------*/
+
+
+
+.first_menu {
+    
+    width: 100%;
+    background-color: #34495e;
+    height: 80px;
+    
+}  
+
+   
+
+    .col-lg-16 img:first-child {
+
+        position: absolute;
+        top: 25px;
+        left: 126px;
+
+    }
+
+   
+    .login_menu {
+
+        position: absolute;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        right: 0px;
+        top: 30px;
+        margin-right: 214px;
+        color: #ffffff;
+       
+    }
+
+.first_menu span {
+    
+    position: absolute;
+    right: 0;
+    top: 29px;
+    margin-right: 206px;
+    font: 400 14px AFuturaOrtoBold;
+    color: #ffffff;
+    
+}
+
+     .signin_menu {
+
+        position: absolute;
+        right: 0;
+        top:30px;
+        margin-right: 148px;
+        color: #ffffff;
+        font: 400 14px AFuturaOrtoBold;
+        width: 56px;
+        
+    
+
+    }
+
+        .login_menu:hover,.signin_menu:hover {
+
+            color: white;
+
+        }
+
+   
+
+    
+
+
+        @media (max-width:509px) {
+
+
+           
+            
+            .login_menu {
+
+                position: absolute;
+                right: 0;
+                top:15px;
+                margin-right: 50px;
+
+
+            }
+
+            .signin_menu {
+
+                position: absolute;
+                right: 0;
+                top:45px;
+                margin-right: 50px;
+                
+
+            }
+            
+            .first_menu span {
+                
+                visibility: hidden;
+                
+            }
+
+
+        }
+
+
+#items_menu {
+    
+    position: relative;
+    top: 81px;
+    background-color: #34495e;
+    
+    
+}
+
+
+#akkordeon_menu {
+    
+    top: 5px;
+    background-color: white;
+    margin-right: 50px;
+    
+}
+
+#nav_menu {
+    
+    position: relative;
+    margin-left: 25px;
+    
+}
+
+#nav_menu a{
+    
+    position: relative;
+    margin-right: 60px;
+    margin-top: 15px;
+    padding: 0;
+    color: #ffffff;
+    font: 400 14px AFuturaOrto;
+    
+    
+}
+
+#header_container_menu {
+    
+    position: relative;
+    top: 52px;
+    height: 159px;
+    background-color: #95a0ab;
+    
+}
+
+#header_container_menu span{
+    
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-left: 406px;
+    color: #ffffff;
+    font: 51px AFuturaOrto;
+    text-shadow: 3px 0px 0px rgba(0, 0, 0, 1);
+    
+
+}
+
+
+#img_main {
+    
+    padding: 0;
+    
+}
+#img_main img{
+ 
+    position: relative;
+    top: 52px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    
+}

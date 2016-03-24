@@ -212,11 +212,15 @@
 
 #pdf_main {
     
+    position: absolute;
+    right: 0;
+    margin-right: 160px;
+    /*margin-right: 13%;*/
+  
     margin-top: 60px;
-    margin-bottom: 60px;
     overflow: scroll;
-    width: 880px;
-    height: 1950px;
+    width: 73%;
+    height: 1860px;
     
     
 }
@@ -224,7 +228,7 @@
 #pdf_main img {
     
     
-    /*height: 3867px;*/
+  
     
     
     
@@ -233,12 +237,31 @@
 .scrollback_main {
     
     position: absolute;
-    top: 108px;
+    top: 60px;
     right: 0;
-    margin-right: 20px;
+   /* margin-right: 8.2%*/
+        
+    margin-right: 99px;
     
 }
 
+
+@media (max-width:545px) {
+    
+    #pdf_main {
+        
+        margin-right: 70px;
+        
+    }
+    
+    .scrollback_main {
+        
+        margin-right: 9px;
+        
+    }
+    
+    
+}
 /*------------------------------------*\
               #FOOTER
 \*------------------------------------*/

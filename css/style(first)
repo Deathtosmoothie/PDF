@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*------------------------------------*\
+              #FIRST_MENU
+\*------------------------------------*/
+
+
+
+.first_menu {
+    
+    width: 100%;
+    background-color: #34495e;
+    height: 80px;
+    
+}  
+
+   
+
+    .col-lg-16 img:first-child {
+
+        position: absolute;
+        top: 25px;
+        left: 126px;
+
+    }
+
+   
+    .HIMAKE_menu {
+
+        position: absolute;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        right: 0px;
+        top: 33px;
+        margin-right: 339px;
+        color: #ffffff;
+        font: 400 18px AFuturaOrtoBold;
+    }
+
+        .HIMAKE_menu:hover {
+
+            color: white;
+
+        }
+
+    .wheel_first_menu {
+
+        position: absolute;
+        right: 0;
+        margin-right: 400px;
+        
+        width: 29px;
+        height: 27px;
+    
+
+    }
+
+    .exit_first_menu {
+
+        position: absolute;
+        right: 0;
+        margin-right: 340px;
+       
+        width: 29px;
+        height: 27px;
+
+    }
+
+
+        @media (max-width:660px) {
+
+
+            .HIMAKE_menu {
+
+                position: absolute;
+                top: 20px;
+                left: 280px;
+            }
+            
+            .wheel_first_menu {
+
+                position: absolute;
+                right: 0;
+                margin-right: 130px;
+                margin-top: -20px;
+                width: 29px;
+                height: 30px;
+
+
+            }
+
+            .exit_first_menu {
+
+                position: absolute;
+                right: 0;
+                margin-right: 130px;
+                margin-top: 20px;
+                width: 29px;
+                height: 27px;
+
+            }
+
+
+        }
