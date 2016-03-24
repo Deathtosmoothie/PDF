@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*------------------------------------*\
+              #FIRST_MENU
+\*------------------------------------*/
+
+
+
+.first_menu {
+    
+    width: 100%;
+    background-color: #34495e;
+    height: 80px;
+    
+}  
+
+   
+
+    .col-lg-16 img:first-child {
+
+        position: absolute;
+        top: 25px;
+        left: 126px;
+
+    }
+
+   
+    .HIMAKE_menu {
+
+        position: absolute;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        right: 0px;
+        top: 33px;
+        margin-right: 339px;
+        color: #ffffff;
+        font: 400 18px AFuturaOrtoBold;
+    }
+
+        .HIMAKE_menu:hover {
+
+            color: white;
+
+        }
+
+    .wheel_first_menu {
+
+        position: absolute;
+        right: 0;
+        margin-right: 400px;
+        
+        width: 29px;
+        height: 27px;
+    
+
+    }
+
+    .exit_first_menu {
+
+        position: absolute;
+        right: 0;
+        margin-right: 340px;
+       
+        width: 29px;
+        height: 27px;
+
+    }
+
+
+        @media (max-width:660px) {
+
+
+            .HIMAKE_menu {
+
+                position: absolute;
+                top: 20px;
+                left: 280px;
+            }
+            
+            .wheel_first_menu {
+
+                position: absolute;
+                right: 0;
+                margin-right: 130px;
+                margin-top: -20px;
+                width: 29px;
+                height: 30px;
+
+
+            }
+
+            .exit_first_menu {
+
+                position: absolute;
+                right: 0;
+                margin-right: 130px;
+                margin-top: 20px;
+                width: 29px;
+                height: 27px;
+
+            }
+
+
+        }
+
+
+/*------------------------------------*\
+              #SECOND_MENU
+\*------------------------------------*/
+
+
+
+.text_second_menu {
+    
+    position: relative;
+    display: block;
+    top: 117px;
+    margin: 0 auto;
+    width: 550px;
+    text-align: center;
+    color: #33475f;
+    font: 400 12.27pt AFuturaOrto;
+    
+}
+
+#buttons_second_menu {
+    
+    position: relative;
+    display: block;
+    top: 177px;
+    width: 872px;
+    margin: 0 auto;
+    
+}
+
+    #back_second_menu {
+        
+        
+        border-style: none;
+        background-color: #96a0ac;
+        width: 242px;  
+        height: 47px;
+        margin-right: 50px;
+        
+
+    }
+
+    #save_second_menu {
+        
+        
+        background-color: #34495e;
+        width: 242px;  
+        height: 47px;
+        margin-right: 50px;
+        
+    }
+
+    #download_second_menu {
+        
+        
+        background-color: #34495e;
+        width: 242px;  
+        height: 47px;
+
+    }
+
+@media (max-width:888px) {
+    
+    .text_second_menu {
+        
+        width: 100%;
+        
+    }
+    
+    
+    #buttons_second_menu {
+        
+        width: 260px;
+        
+    }
+    
+    #back_second_menu,#save_second_menu {
+        
+        margin-bottom: 20px;
+        
+    }
+    
+    
+}
+
+
+
+/*------------------------------------*\
+                #MAIN
+\*------------------------------------*/
+
+
+#main {
+    
+    position: relative;
+    top: 230px;
+    background-color: #96a0ac;
+    height: 2067px;
+    
+    
+}
+
+#pdf_main {
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: scroll;
+    width: 880px;
+    height: 1950px;
+    
+    
+}
+
+#pdf_main img {
+    
+    
+    /*height: 3867px;*/
+    
+    
+    
+}
+
+.scrollback_main {
+    
+    position: absolute;
+    top: 108px;
+    right: 0;
+    margin-right: 20px;
+    
+}
+
+/*------------------------------------*\
+              #FOOTER
+\*------------------------------------*/
+
+
+
+
+#footer {
+    
+    position: relative;
+    top: 230px;
+    height: 78px;
+    background-color: #34495e;
+    
+}
+
+    #copyright_footer {
+
+        position: absolute;
+        right: 0;
+        left: 10%;
+        top: 35px;
+        width: 90%;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+
+    }
+
+   #footer a {
+
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        margin-right: 123px;
+
+    }
+
+    #footer a:nth-child(2) {
+
+        margin-right: 260px;
+
+    }
+
+    @media (max-width:908px){
+
+        #footer {
+
+            height: 120px;
+
+        }
+
+        #footer a {
+
+            top: 80px;
+            left: 10%;
+            width: 121px;
+        }
+
+        #footer a:nth-child(2) {
+
+            left: 44%;
+        }
+    }

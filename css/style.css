@@ -1,0 +1,369 @@
+/*------------------------------------*\
+              #FIRST_MENU
+\*------------------------------------*/
+
+
+
+.first_menu {
+    
+    width: 100%;
+    background-color: #34495e;
+    height: 80px;
+    
+}  
+
+   
+
+    .col-lg-16 img {
+
+        position: absolute;
+        top: 25px;
+        left: 126px;
+
+    }
+
+        .col-lg-16 a:hover {
+
+            color: white;
+
+        }
+
+    .help_menu {
+
+        position: absolute;
+        right: 0px;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        top: 33px;
+        margin-right: 224px;
+        
+
+    }
+
+    .username_menu {
+
+        position: absolute;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        right: 0px;
+        top: 33px;
+        margin-right: 122px;
+        
+    }
+
+        @media (max-width:510px) {
+
+            .help_menu {
+
+                position: absolute;
+                top: 10px;
+                left: 280px
+
+            }
+
+            .username_menu {
+
+                position: absolute;
+                top: 50px;
+                left: 280px;
+            }
+
+        }
+
+
+/*------------------------------------*\
+              #SECOND_MENU
+\*------------------------------------*/
+
+
+
+
+.second_menu {
+    
+    width: 100%;
+    margin-top: 1px;
+    height: 170px;
+    background-color: #95a0ab;
+}
+
+    .text_second_menu {
+
+        position: relative;
+        color: #feffff;
+        font: 400 36px AFuturaOrtoBold;
+        top: 21px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .load_second_menu img {
+
+        position: absolute;
+        right: 0;
+        margin-right: 10.3%;
+        margin-left: 10.3%;
+        top: 165px;
+        width: 79.1%;
+
+
+    }
+
+        @media (max-width:456px) {
+
+            .load_second_menu img {
+
+                top: 215px;
+
+            }
+
+        }
+
+
+
+
+/*------------------------------------*\
+              #MAIN
+\*------------------------------------*/
+
+
+
+
+.first_text_main {
+    
+    margin-top: 42px;
+    margin-bottom: 10px;
+    left: 409px;
+    width: 100%;
+    text-align: center;
+    color: #34495e;
+    font: 400 24px AFuturaOrto;
+    
+}
+
+    @media (min-width: 767px) {
+
+
+        #StreetAdress {
+
+            margin-left: 1.6%;
+            margin-right: 4%;
+            margin-bottom: 40px;
+            width: 57.4%;
+            height: 44px;
+
+        }
+
+        #Apt {
+
+            position: absolute;
+            width: 30.8%;
+            height: 44px;
+
+        }
+
+        #Municipality {
+
+            position: absolute;
+            margin-top: 81px;
+            width: 33.7%;
+            height: 44px;
+            left: 10.3%;
+        }
+
+        #Province {
+
+            position: absolute;
+            margin-top: 81px;
+            width: 10.7%;
+            height: 44px;
+            left: 46%;
+
+        }
+
+        #Postal_Code {
+
+            position: absolute;
+            margin-top: 81px;
+            margin-left: 13.5%;
+            margin-left: 0;
+            height: 44px;
+            width: 30.6%;
+
+
+        }
+
+    }
+
+
+
+
+.second_text_main {
+
+        color: #34495e;
+        font: 400 24px AFuturaOrto;
+        position: relative;
+        margin-top: 116px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    @media (min-width: 767px) {
+        
+    .form-group {
+
+        top: 10px;
+        width: 82.7%;
+        margin-top: 3%;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 6.4%;
+
+
+    }
+
+        #Name {
+
+            margin-left: 1.6%;
+            width: 57.4%;
+            height: 44px;
+            margin-bottom: 40px;
+            margin-right: 3.7%;
+
+
+        }
+        #Phone {
+
+            position: absolute;
+            width: 30.8%;
+            height: 44px;
+        }
+
+
+
+    }
+
+
+
+
+#button_back {
+    
+    position: relative;
+    padding: 0 55px;
+    top: 99px;
+    left: 37%;
+    width: 147px;
+    background-color: #95a0ab;
+    font: 400 14px AFuturaOrtoBold;
+    height: 47px;
+    border-style: none;
+}
+
+#button_continue {
+    
+    position: relative;
+    margin-left: 55px;
+    padding: 0 35px;
+    top: 99px;
+    left: 37%;
+    width: 147px;
+    background-color: #34495e;
+    text-align: center;
+    color: #fbfdfe;
+    font: 400 14px AFuturaOrtoBold;
+    height: 47px;
+}
+
+
+    @media (max-width:767px)
+
+    {
+
+     #button_back {
+
+            position: relative;
+            margin: 0;
+            top: 40px;
+            left: 39%;
+
+        }    
+
+    #button_continue {
+
+        position: relative;
+        top: 130px;
+        left: 39%;
+        margin-left: -150px;
+
+        }
+
+    }
+
+
+
+/*------------------------------------*\
+              #FOOTER
+\*------------------------------------*/
+
+
+
+
+#footer {
+    
+    position: relative;
+    top: 181px;
+    height: 78px;
+    background-color: #34495e;
+    
+}
+
+    #copyright_footer {
+
+        position: absolute;
+        right: 0;
+        left: 10%;
+        top: 35px;
+        width: 90%;
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+
+    }
+
+   #footer a {
+
+        color: #feffff;
+        font: 400 14px AFuturaOrtoBold;
+        position: absolute;
+        top: 35px;
+        right: 0;
+        margin-right: 123px;
+
+    }
+
+    #footer a:nth-child(2) {
+
+        margin-right: 260px;
+
+    }
+
+    @media (max-width:908px){
+
+        #footer {
+
+            height: 120px;
+
+        }
+
+        #footer a {
+
+            top: 80px;
+            left: 10%;
+            width: 121px;
+        }
+
+        #footer a:nth-child(2) {
+
+            left: 44%;
+        }
+    }
